@@ -14,6 +14,7 @@ public class MyController {
     @Autowired
     User user;
 
+
     @GetMapping(value = "/user")
     public String getUser() {
         return "get user";
